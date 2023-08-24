@@ -1,0 +1,5 @@
+export const GOOD_FOOD_ICON = '/img/icons/good-food.svg'
+export const RESTAURANT_ICON = '/img/icons/restaurant.svg'
+export const MENUS_ICON = '/img/icons/menus.svg'
+export const USERS_ICON = '/img/icons/users.svg'
+export const PROFILE_ICON = '/img/icons/profile.svg'

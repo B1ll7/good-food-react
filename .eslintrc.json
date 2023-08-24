@@ -33,6 +33,10 @@
                 "ignoreStrings": false,
                 "ignoreTemplateLiterals": false
             }
+        ],
+        "react/prop-types": [
+            0,
+            "warn"
         ]
     },
     "settings": {
