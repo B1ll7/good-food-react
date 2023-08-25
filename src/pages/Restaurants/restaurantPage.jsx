@@ -1,42 +1,19 @@
 import React from 'react'
 import { StyledDiv, StyledMainContainer } from './styles'
-import Sidebar from '../../components/sidebar/sidebar'
-import Header from '../../components/header/header'
-import Filter from '../../components/filter/filter'
 import BadgeRole from '../../components/badge/badgeRole'
 import BadgeButton from '../../components/badge/badgeButton'
+import Header from '../../components/header/header'
+import Sidebar from '../../components/sidebar/sidebar'
+
 import { DEFAULT_COLOR, ORANGE_COLOR } from '../../constants/colors'
-import { DELETE_ICON, EDIT_ICON } from '../../constants/images'
+import { EDIT_ICON, DELETE_ICON } from '../../constants/images'
 
-const UsersPage = () => {
-  function handleClickCreate(e) {
-    e.preventDefault()
-    console.log(e)
-  }
-
-  function handleClickSubmit(e) {
-    e.preventDefault()
-    console.log(e)
-  }
-
-  function handleClickSubmitKeyUp(e) {
-    e.preventDefault()
-    console.log(e)
-  }
-
+const RestaurantPage = () => {
   return (
     <StyledDiv>
       <Sidebar />
       <StyledMainContainer>
-        <Header>Utilisateurs</Header>
-        <Filter
-          handleClickCreate={handleClickCreate}
-          handleClickSubmit={handleClickSubmit}
-          handleClickSubmitKeyUp={handleClickSubmitKeyUp}
-          name="search-users"
-          placeholder="nom, prenom etc..."
-          createdButton="Créer un utilisateur"
-        />
+        <Header>Restaurants</Header>
         <table>
           <tr>
             <th>id</th>
@@ -69,4 +46,4 @@ const UsersPage = () => {
   )
 }
 
-export default UsersPage
+export default RestaurantPage
