@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Good Food !
+
+Intégration de la maquette figma:  
+https://www.figma.com/file/xJTVif6uRUuqGUtTLI3YZA/Charte-graphique  
+  
+Utilisation de Parcel, React (+router), TailwindCss

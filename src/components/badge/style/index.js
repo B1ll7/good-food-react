@@ -15,6 +15,6 @@ export const StyledDivBadgeButton = styled.button`
   background-color: ${(props) => props.bgColor};
   width: fit-content;
   border-radius: 50%;
-  border: none; 
+  border: none;
   padding: 4px;
 `
