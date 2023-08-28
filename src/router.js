@@ -1,6 +1,6 @@
 import React from 'react'
 import HomePage from './pages/Home/homePage'
-import LoginPage from './pages/Login/loginPage'
+import LoginPage from "./pages/Login/LoginPage"
 import UsersPage from './pages/Users/UsersPage'
 import SignUpPage from './pages/Signup/Signup'
 
