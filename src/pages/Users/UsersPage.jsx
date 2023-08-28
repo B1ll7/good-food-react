@@ -55,7 +55,7 @@ const UsersPage = () => {
               <BadgeRole value="Admin" />
             </td>
             <td>
-              <BadgeButton  bgColor={DEFAULT_COLOR}>
+              <BadgeButton bgColor={DEFAULT_COLOR}>
                 <img src={EDIT_ICON} width="25px" height="25px" />
               </BadgeButton>
               <BadgeButton bgColor={ORANGE_COLOR}>
