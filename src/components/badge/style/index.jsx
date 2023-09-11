@@ -12,9 +12,11 @@ export const StyledDiv = styled.div`
 `
 
 export const StyledDivBadgeButton = styled.button`
+  cursor: pointer;
   background-color: ${(props) => props.bgColor};
   width: fit-content;
   border-radius: 50%;
   border: none;
   padding: 4px;
+  margin: 0 20px;
 `

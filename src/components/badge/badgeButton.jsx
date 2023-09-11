@@ -2,10 +2,17 @@ import React from 'react'
 
 import { StyledDivBadgeButton } from './style'
 
-const BadgeButton = ({ children, bgColor }) => {
+const BadgeButton = (props) => {
+  const { children, bgColor, handleClick } = props;
+
   return (
-    <StyledDivBadgeButton bgColor={bgColor}>{children}</StyledDivBadgeButton>
-  )
+    <StyledDivBadgeButton
+      onClick={handleClick}
+      bgColor={bgColor}
+    >
+      {children}
+    </StyledDivBadgeButton>
+  );
 }
 
 export default BadgeButton

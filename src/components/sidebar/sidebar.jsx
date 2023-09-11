@@ -5,7 +5,9 @@ import {
   MENUS_ICON,
   PROFILE_ICON,
   RESTAURANT_ICON,
-  USERS_ICON
+  UNCONNECT_ICON,
+  USERS_ICON,
+  WAITRESS_ICON
 } from '../../constants/images'
 
 const ListElement = (props) => {
@@ -40,13 +42,16 @@ const Sidebar = () => {
         >
           RESTAURANTS
         </ListElement>
-        <ListElement route="/menus" icon={MENUS_ICON} name="menus">
-          MENUS
+        <ListElement route="/menus" icon={WAITRESS_ICON} name="menus">
+          COMMANDES
         </ListElement>
       </ul>
       <ul>
         <ListElement route="/profile" icon={PROFILE_ICON} name="profile">
           PROFILE
+        </ListElement>
+        <ListElement route="/login" icon={UNCONNECT_ICON} name="deconnexion">
+          Deconnexion
         </ListElement>
       </ul>
     </StyledSideBar>

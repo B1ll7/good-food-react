@@ -1,17 +1,16 @@
 import styled from 'styled-components'
 
 export const StyledDiv = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  > :nth-child(1) {
+    flex: 1;
+  }
   > :nth-child(2) {
+    flex: 1;
     padding: 0;
     margin: 0;
-    overflow: hidden;
-  }
-
-  > :nth-child(2) img {
-    width: 100%;
-    height: auto;
+    background-color: #039be5;
   }
 `
 

@@ -13,9 +13,3 @@ export const StyledMainContainer = styled.div`
     text-align: center;
   }
 `
-
-export const StyledForm = styled.div`
-  width: 50%;
-  min-with: 400px;
-  margin: auto;
-`

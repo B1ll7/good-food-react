@@ -14,6 +14,7 @@ export const StyledDiv = styled.div`
 `
 
 export const StyledButton = styled.button`
+  cursor: pointer;
   width: 193px;
   height: 40px;
   border-radius: 10px;

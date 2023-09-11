@@ -18,7 +18,7 @@ const BADGE_ROLES = [
 ]
 
 const BadgeRole = ({ value }) => {
-  const badge = BADGE_ROLES.find((bagde) => bagde.name === value)
+  const badge = BADGE_ROLES.find((type) => type.name === value)
   return <StyledDiv bgColor={badge.bgColor}>{badge.name}</StyledDiv>
 }
 
